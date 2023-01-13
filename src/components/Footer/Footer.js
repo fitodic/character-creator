@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import styles from './Footer.module.css';
+import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      All character assets taken from{' '}
+      <div className={styles.decoration}></div>
+      All character assets taken from{" "}
       <a
         href="https://www.openpeeps.com/"
         target="_blank"
